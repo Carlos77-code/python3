@@ -1,3 +1,5 @@
+import os
+
 def listar(tarefas):
     print()
     if not tarefas:
@@ -51,10 +53,16 @@ while True:
         continue
     elif tarefa == 'desfazer':
         desfazer(tarefas, tarefas_refazer)
+        listar(tarefas)
         continue
     elif tarefa == 'refazer':
         refazer(tarefas, tarefas_refazer)
+        listar(tarefas)
+        continue
+    elif tarefa == 'clear':
+        os.system('cls')
         continue
     else:
         adicionar(tarefa, tarefas)
+        listar(tarefas)
         continue
