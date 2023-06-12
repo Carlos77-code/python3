@@ -1,0 +1,17 @@
+Definição
+
+* - Classes: Vamos imaginar que você quer fazer um desenho de um animal, então você cria uma "Classe" animal será como um molde 
+onde você irá desenhar esse "Animal". 
+Ex. Você pode ter uma classe chamada "Animal" que vai ter todas as caracteristicas e comportamentos de um animal.
+
+* - Métodos: método são as ações ou comportamentos que um objeto criado a partir de uma classe, pode executar. 
+No caso do desenho do animal, um método poderia ser:
+Ex. "andar". Ou seja, é a forma como o animal se movimenta.
+
+* - Objeto: É uma instância de uma classe, ou seja, é algo concreto criado com base no molde da classe. Voltando ao exemplo do 
+desenho de um animal, quando você pega o molde "Animal" e o usa para fazer um desenho de um leão, o desenho do leão é o objeto. 
+Ele possui todas as caracteristicas
+e comportamentos definidos na classe "Animal".
+
+* - Instância: são as cópias especificas de um obejto. Voltando ao exemplo, se você fizer varios desenhos de leões usando o 
+mesmo molde "Animal", cada desenho individual seria uma instância do objeto leão.
